@@ -70,14 +70,15 @@ sudo nano inventory
 ```
 
 - Modify the admin_password and secret_key and also username if you want. 
-Example:
+- Example:
 ```
 admin_password=password
 secret_key=bSrvLpnSsMMrNBWBDtGbSzz6I4GnD9
 ```
 
-9. After that implement yml playbook which downloads docker container images and sets them up accordingly. Run the following command to apply ansible playbook.
+9. After that implement yml playbook which downloads docker container images and sets them up accordingly.
 - Make sure you are in this directory awx/installer running the below command.
+- Run the following command to apply ansible playbook.
 ```
 sudo ansible-playbook -i inventory install.yml
 ```
