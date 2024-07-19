@@ -73,7 +73,7 @@ sudo nano inventory
 - Example:
 ```
 admin_password=password
-secret_key=bSrvLpnSsMMrNBWBDtGbSzz6I4GnD9
+secret_key=n9MaoO1bT3AfHIb7wYklftSNWDMgAJ
 ```
 
 9. After that implement yml playbook which downloads docker container images and sets them up accordingly.
