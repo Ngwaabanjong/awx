@@ -1,8 +1,8 @@
 # AWX Install on Ubuntu and running on Docker
 REQUIRED OS:
   - Ubuntu 22
-  - 2 core = At lease
-  - 4 ram = At lease
+  - 2 core = At least
+  - 4 ram = At least
 
 AWS Instance type:
   - t2.medium
